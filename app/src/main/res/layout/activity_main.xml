@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="0dp"
-            android:background="#F4EFEF"
+            android:background="#FBFBFB"
             app:itemIconTint="@color/black"
             app:itemTextColor="#2ACF31"
             app:menu="@menu/navigation" />
@@ -106,7 +106,7 @@
                     android:layout_height="110dp"
                     android:layout_weight="1"
                     android:background="@drawable/rounded2"
-                    app:srcCompat="@drawable/garden" />
+                    app:srcCompat="@drawable/light" />
                 <ImageButton
                     android:id="@+id/imageButton3"
                     android:layout_width="110dp"
@@ -114,15 +114,23 @@
                     android:layout_height="110dp"
                     android:layout_weight="1"
                     android:background="@drawable/rounded2"
-                    app:srcCompat="@drawable/garden" />
+                    app:srcCompat="@drawable/tools" />
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/imageButton5"
                     android:layout_width="110dp"
                     android:layout_margin="2dp"
                     android:layout_height="110dp"
                     android:layout_weight="1"
                     android:background="@drawable/rounded2"
-                    app:srcCompat="@drawable/garden" />
+                    app:srcCompat="@drawable/res" />
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="110dp"
+                    android:layout_margin="2dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded2"
+                    app:srcCompat="@drawable/decor" />
 
             </LinearLayout>
             />
