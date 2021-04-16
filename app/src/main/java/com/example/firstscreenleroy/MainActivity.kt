@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             "https://res.cloudinary.com/lmru/image/upload/f_auto,q_90,h_240,c_pad,b_white,d_photoiscoming.png/LMCode/13654484.jpg",
             "https://res.cloudinary.com/lmru/image/upload/f_auto,q_90,h_240,c_pad,b_white,d_photoiscoming.png/LMCode/82306061.jpg"
         )
+        Picasso.get().load(image_url[0]).into(iv2)
         Picasso.get().load(image_url[1]).into(ivFirst)
 //        val displaymetrics = resources.displayMetrics
 //        var m = displaymetrics.widthPixels
