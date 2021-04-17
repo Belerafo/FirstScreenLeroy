@@ -125,7 +125,6 @@
                             android:layout_marginEnd="5dp"
                             android:layout_marginBottom="2dp"
                             android:background="@drawable/rounded3"
-                            android:onClick="onClickButton"
                             app:srcCompat="@drawable/catalog" />
 
                         <ImageButton

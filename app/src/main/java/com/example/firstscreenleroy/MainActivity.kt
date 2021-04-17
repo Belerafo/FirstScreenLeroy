@@ -35,16 +35,8 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-//        val displaymetrics = resources.displayMetrics
-//        var m = displaymetrics.widthPixels
-//        svSearch.setWidth =
-//    textView2.text = m.toString()
-
     }
 
 
-    fun onClickButton(view: View) {
-      val toast =  Toast.makeText(applicationContext, "Кнопка нажата", Toast.LENGTH_SHORT)
-        toast.show()
-    }
+
 }
