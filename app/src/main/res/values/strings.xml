@@ -7,7 +7,19 @@
     <string name="cart">Корзина</string>
     <string name="offers">Предложение ограничено</string>
     <string name="best_price">Лучшая цена</string>
-
+    <string name="search_product">Поиск товара</string>
+    <string name="mini_wash">7 430 ₽/шт \n Минимойка Sterwins 135, 135 бар, 420 л/ч, 2 кВт</string>
+    <string name="napkin">122 ₽/шт \n Салфетка, 35x35 см, микрофибра, 4 шт.</string>
+    <string name="wiper">3 498 ₽/шт \n Стеклоочиститель Bosch GlassVac Solo</string>
+    <string name="cleaner">78 ₽/шт \n Очиститель для стёкол Clean Glass 600 мл</string>
+    <string name="gloves">21 ₽/шт \n Перчатки х/б с ПВХ-обливкой, 13 класс</string>
+    <string name="vacuum_cleaner">14 548 ₽/шт \n Пылесос Bosch GAS 12–25 PL, 1250 Вт, 30 л</string>
+    <string name="concrete">143 ₽/шт \n Пескобетон Axton 30 кг</string>
+    <string name="shovel">807 ₽/шт \n Лопата штыковая Fiskars SolidTM 116 см сталь с черенком</string>
+    <string name="motor_cultivator">16 991 ₽/шт \n Мотокультиватор Sterwins Model 1. 3,5 л/с</string>
+    <string name="table_set">4 990 ₽/шт \n Набор столиков кофейных Atmosphera 157205A, 39 см, 2 шт.</string>
+    <string name="tent">3 374 ₽/шт \n Павильон садовый 3х3 м зелёный, антимоскитная сетка</string>
+    <string name="rack">3 516 ₽/шт \n Стеллаж Кабуки 60x201x28 см, ЛДСП, цвет венге</string>
 
 
 </resources>

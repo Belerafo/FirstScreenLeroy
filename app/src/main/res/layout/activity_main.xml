@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:text="Поиск товара" />
+            android:text="@string/search_product" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -101,10 +101,11 @@
                 android:orientation="vertical" >
 
                 <HorizontalScrollView
+                    android:id="@+id/hsvTopMenu"
                     android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="25dp"
-                    android:layout_height="match_parent"
                     android:scrollbars="none">
 
 
@@ -121,8 +122,8 @@
                             android:layout_marginStart="10dp"
                             android:layout_marginEnd="5dp"
                             android:layout_marginBottom="2dp"
-                            android:onClick="onClickButton"
                             android:background="@drawable/rounded3"
+                            android:onClick="onClickButton"
                             app:srcCompat="@drawable/catalog" />
 
                         <ImageButton
@@ -189,8 +190,8 @@
                             android:id="@+id/tbNext"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="10dp"
 
                             android:layout_marginBottom="2dp"
                             android:layout_weight="1"
@@ -202,7 +203,7 @@
                 </HorizontalScrollView>
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/tvOffer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/offers"
@@ -212,11 +213,12 @@
                     android:textColor="@color/black" />
 
                 <HorizontalScrollView
+                    android:id="@+id/hsvOffers"
                     android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="25dp"
-                    android:scrollbars="none"
-                    android:layout_height="match_parent">
+                    android:scrollbars="none">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -226,7 +228,9 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp">
 
                             <ImageView
                                 android:id="@+id/iv1"
@@ -238,16 +242,18 @@
                                 android:id="@+id/tv1"
                                 android:layout_width="match_parent"
                                 android:layout_height="35dp"
-                                android:maxLines="2"
                                 android:ellipsize="end"
-                                android:textColor="@color/black"
-                                android:text="7 430 ₽/шт  \n Минимойка Sterwins 135, 135 бар, 420 л/ч, 2 кВт" />
+                                android:maxLines="2"
+                                android:text="@string/mini_wash"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
 
                             <ImageView
                                 android:id="@+id/iv2"
@@ -259,16 +265,18 @@
                                 android:id="@+id/tv2"
                                 android:layout_width="match_parent"
                                 android:layout_height="35dp"
-                                android:maxLines="2"
                                 android:ellipsize="end"
-                                android:textColor="@color/black"
-                                android:text="122 ₽/шт \n Салфетка, 35x35 см, микрофибра, 4 шт." />
+                                android:maxLines="2"
+                                android:text="@string/napkin"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
 
                             <ImageView
                                 android:id="@+id/iv3"
@@ -280,16 +288,18 @@
                                 android:id="@+id/tv3"
                                 android:layout_width="match_parent"
                                 android:layout_height="35dp"
-                                android:maxLines="2"
                                 android:ellipsize="end"
-                                android:textColor="@color/black"
-                                android:text="3 498 ₽/шт \n Стеклоочиститель Bosch GlassVac Solo" />
+                                android:maxLines="2"
+                                android:text="@string/wiper"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
 
                             <ImageView
                                 android:id="@+id/iv4"
@@ -301,16 +311,18 @@
                                 android:id="@+id/tv4"
                                 android:layout_width="match_parent"
                                 android:layout_height="35dp"
-                                android:maxLines="2"
                                 android:ellipsize="end"
-                                android:textColor="@color/black"
-                                android:text="78 ₽/шт \n Очиститель для стёкол Clean Glass 600 мл" />
+                                android:maxLines="2"
+                                android:text="@string/cleaner"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
 
                             <ImageView
                                 android:id="@+id/iv5"
@@ -322,16 +334,18 @@
                                 android:id="@+id/tv5"
                                 android:layout_width="match_parent"
                                 android:layout_height="35dp"
-                                android:maxLines="2"
                                 android:ellipsize="end"
-                                android:textColor="@color/black"
-                                android:text="21 ₽/шт \n Перчатки х/б с ПВХ-обливкой, 13 класс" />
+                                android:maxLines="2"
+                                android:text="@string/gloves"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="10dp">
 
                             <ImageView
                                 android:id="@+id/iv6"
@@ -343,10 +357,10 @@
                                 android:id="@+id/tv6"
                                 android:layout_width="150dp"
                                 android:layout_height="35dp"
-                                android:maxLines="2"
                                 android:ellipsize="end"
-                                android:textColor="@color/black"
-                                android:text="14 548 ₽/шт \n Пылесос Bosch GAS 12-25 PL, 1250 Вт, 30 л" />
+                                android:maxLines="2"
+                                android:text="@string/vacuum_cleaner"
+                                android:textColor="@color/black" />
 
                         </LinearLayout>
 
@@ -354,7 +368,7 @@
                 </HorizontalScrollView>
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/tvBestPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
@@ -364,22 +378,155 @@
                     android:textColor="@color/black" />
 
                 <HorizontalScrollView
+                    android:id="@+id/hsvBestPrice"
                     android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_marginTop="25dp"
                     android:layout_marginBottom="25dp"
-                    android:scrollbars="none"
-                    android:layout_height="match_parent">
+                    android:scrollbars="none">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="vertical">
+                        android:orientation="horizontal">
 
-                        <ImageButton
-                            android:id="@+id/imageButton2"
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/garden" />
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp">
+
+                            <ImageView
+                                android:id="@+id/iv7"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv7"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:text="@string/concrete" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
+
+                            <ImageView
+                                android:id="@+id/iv8"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv8"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:text="@string/shovel" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
+
+                            <ImageView
+                                android:id="@+id/iv9"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv9"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:text="@string/motor_cultivator" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
+
+                            <ImageView
+                                android:id="@+id/iv10"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv10"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:text="@string/table_set" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp">
+
+                            <ImageView
+                                android:id="@+id/iv11"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv11"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:text="@string/tent" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="10dp">
+
+                            <ImageView
+                                android:id="@+id/iv12"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv12"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:textColor="@color/black"
+                                android:ellipsize="end"
+                                android:maxLines="2"
+                                android:text="@string/rack" />
+                        </LinearLayout>
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
