@@ -118,11 +118,10 @@
                             android:id="@+id/ibCatalog"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="5dp"
-
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="5dp"
                             android:layout_marginBottom="2dp"
-                            android:layout_weight="1"
+                            android:onClick="onClickButton"
                             android:background="@drawable/rounded3"
                             app:srcCompat="@drawable/catalog" />
 
@@ -230,19 +229,19 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/iv2"
+                                android:id="@+id/iv1"
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
                                 app:srcCompat="@drawable/cart" />
 
                             <TextView
-                                android:id="@+id/textView5"
+                                android:id="@+id/tv1"
                                 android:layout_width="match_parent"
                                 android:layout_height="35dp"
                                 android:maxLines="2"
                                 android:ellipsize="end"
                                 android:textColor="@color/black"
-                                android:text="7 430 ₽/шт Минимойка Sterwins 135, 135 бар, 420 л/ч, 2 кВт" />
+                                android:text="7 430 ₽/шт  \n Минимойка Sterwins 135, 135 бар, 420 л/ч, 2 кВт" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -251,19 +250,103 @@
                             android:orientation="vertical">
 
                             <ImageView
-                                android:id="@+id/ivFirst"
+                                android:id="@+id/iv2"
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
                                 app:srcCompat="@drawable/cart" />
 
                             <TextView
-                                android:id="@+id/textView4"
-                                android:layout_width="150dp"
+                                android:id="@+id/tv2"
+                                android:layout_width="match_parent"
                                 android:layout_height="35dp"
                                 android:maxLines="2"
                                 android:ellipsize="end"
                                 android:textColor="@color/black"
                                 android:text="122 ₽/шт \n Салфетка, 35x35 см, микрофибра, 4 шт." />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv3"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv3"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:maxLines="2"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:text="3 498 ₽/шт \n Стеклоочиститель Bosch GlassVac Solo" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv4"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv4"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:maxLines="2"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:text="78 ₽/шт \n Очиститель для стёкол Clean Glass 600 мл" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv5"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv5"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:maxLines="2"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:text="21 ₽/шт \n Перчатки х/б с ПВХ-обливкой, 13 класс" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv6"
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                app:srcCompat="@drawable/cart" />
+
+                            <TextView
+                                android:id="@+id/tv6"
+                                android:layout_width="150dp"
+                                android:layout_height="35dp"
+                                android:maxLines="2"
+                                android:ellipsize="end"
+                                android:textColor="@color/black"
+                                android:text="14 548 ₽/шт \n Пылесос Bosch GAS 12-25 PL, 1250 Вт, 30 л" />
 
                         </LinearLayout>
 
