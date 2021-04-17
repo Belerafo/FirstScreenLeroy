@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
 //        val displaymetrics = resources.displayMetrics
 //        var m = displaymetrics.widthPixels
-//        m += R.integer.width
+//        svSearch.setWidth =
 //    textView2.text = m.toString()
 
     }
